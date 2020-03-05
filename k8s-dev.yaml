@@ -4,6 +4,9 @@ metadata:
   name: jenkins-demo
   namespace: devlopment
 spec:
+  selector:
+    matchLabels:
+      run: jenkins-demo
   template:
     metadata:
       labels:

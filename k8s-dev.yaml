@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      run: jenkins-demo
+      app: jenkins-demo
   template:
     metadata:
       labels:

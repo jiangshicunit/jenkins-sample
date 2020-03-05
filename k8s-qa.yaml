@@ -4,6 +4,9 @@ metadata:
   name: jenkins-demo
   namespace: qatest
 spec:
+  selector:
+    matchLabels:
+      app: jenkins-demo
   template:
     metadata:
       labels:
